@@ -10,9 +10,10 @@ import { UserService } from '../services/user-service';
 })
 export class Tab2Page {
  
-  constructor(private alertController: AlertController, private userService:UserService) {}
+  constructor(private alertController: AlertController) {}
 
   user = new User()
+  userService = new UserService();
 
   async presentAlert(tipo: string, texto:string) {
     const alert = await this.alertController.create({
