@@ -1,4 +1,4 @@
-import { ProdService } from './prod-service';
+import { ProdService } from './prod.service';
 
 describe('ProdService', () => {
   it('should create an instance', () => {

@@ -1,7 +1,7 @@
-import {User} from '../model/user'
+import { User } from '../model/user';
+
 export class UserService {
-   
-    add(user:User){
-        console.log("salvo")
+    add(user: User) {
+        console.log("salvo");
     }
 }

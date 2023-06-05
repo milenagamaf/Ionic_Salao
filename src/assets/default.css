@@ -1,18 +1,21 @@
 .pt-10{
-    padding: top 10px; ;
+    padding-top: 10px;
 }
 .pt-20{
-    padding: top 10px; ;
+    padding-top: 20px;
 }
 .pt-30{
-    padding: top 10px; ;
+    padding-top: 30px;
 }
 .pt-40{
-    padding: top 10px; ;
+    padding-top: 40px;
 }
 .pt-50{
-    padding: top 10px; ;
+    padding-top: 50px;
 }
+
+/* Text */
+
 .text-start{
     text-align: start;
 }

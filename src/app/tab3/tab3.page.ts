@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Prod } from '../model/prod';
 import {AlertController} from '@ionic/angular'
-import { ProdService } from '../services/prod-service';
+import { ProdService } from '../services/prod.service';
 
 @Component({
   selector: 'app-tab3',
@@ -32,4 +32,3 @@ export class Tab3Page {
   }
 
 }
-
